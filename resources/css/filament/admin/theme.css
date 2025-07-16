@@ -1,7 +1,5 @@
 @import '/vendor/filament/filament/resources/css/theme.css';
 
-@config 'tailwind.config.js';
-
 :root {
   --primary: #677c5b;
   --primary-hover: #e4e6c3;

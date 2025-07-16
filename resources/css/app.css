@@ -5,23 +5,6 @@
 @source '../**/*.blade.php';
 @source '../**/*.js';
 
-@theme {
-    extend: {
-        colors: {
-            'brew-primary': '#677c5b',
-                'brew-primary-hover': '#e4e6c3',
-                'brew-primary-off': '#2f3036',
-                'background': #FFFDF6
-                'brew-disabled': '#e4e6c3',
-                'brew-secondary-01': '#efe9db',
-                'brew-secondary-02': '#afa288',
-                'brew-secondary-03': '#988b71',
-                'brew-secondary-04': '#80735b',
-                'brew-secondary-05': '#685c44',
-        }
-    }
-}
-
 @layer base {
     :root {
         --primary-hover: #E4E6C3;
