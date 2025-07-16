@@ -1,0 +1,38 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    extend: {
+        colors: {
+            'brew-primary': '#677c5b',
+                'brew-primary-hover': '#e4e6c3',
+                'brew-primary-off': '#2f3036',
+                'background': #FFFDF6
+                'brew-disabled': '#e4e6c3',
+                'brew-secondary-01': '#efe9db',
+                'brew-secondary-02': '#afa288',
+                'brew-secondary-03': '#988b71',
+                'brew-secondary-04': '#80735b',
+                'brew-secondary-05': '#685c44',
+        }
+    }
+}
+
+@layer base {
+    :root {
+        --primary-hover: #E4E6C3;
+        --primary: #677C5B;
+        --primary-disabled: #E4E6C3;
+        --primary-off: #2F3036;
+        --background: #FFFDF6;
+        --secondary-01: #EFE9DB;
+        --secondary-02: #AFA288;
+        --secondary-03: #988B71;
+        --secondary-04: #80735B;
+        --secondary-05: #685C44;
+    }
+}

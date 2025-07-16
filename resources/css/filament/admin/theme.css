@@ -1,0 +1,66 @@
+@import '/vendor/filament/filament/resources/css/theme.css';
+
+@config 'tailwind.config.js';
+
+:root {
+  --primary: #677c5b;
+  --primary-hover: #e4e6c3;
+  --primary-off: #2f3036;
+  --disabled: #e4e6c3;
+  --background: #FFFDF6;
+  --secondary-01: #efe9db;
+  --secondary-02: #afa288;
+  --secondary-03: #988b71;
+  --secondary-04: #80735b;
+  --secondary-05: #685c44;
+}
+
+/* Personalización adicional */
+.fi-sidebar {
+  background-color: var(--background) !important;
+}
+
+.fi-sidebar-nav-item-label {
+  color: var(--secondary-01) !important;
+}
+
+.fi-sidebar-nav-item:hover {
+  background-color: var(--primary) !important;
+}
+
+.fi-sidebar-nav-item.fi-active {
+  background-color: var(--primary) !important;
+}
+
+/* Botones primarios */
+.fi-btn-primary {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+
+.fi-btn-primary:hover {
+  background-color: var(--primary-hover) !important;
+  color: var(--primary-off) !important;
+}
+
+/* Header */
+.fi-topbar {
+  background-color: var(--secondary-01) !important;
+  border-bottom-color: var(--secondary-02) !important;
+}
+
+/* Cards */
+.fi-section {
+  background-color: var(--secondary-01) !important;
+  border-color: var(--secondary-02) !important;
+}
+
+/* Inputs */
+.fi-input {
+  border-color: var(--secondary-03) !important;
+}
+
+.fi-input:focus {
+  border-color: var(--primary) !important;
+  box-shadow: 0 0 0 1px var(--primary) !important;
+}
